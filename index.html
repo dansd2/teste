@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-scale-balanced" id="nav_logo">neto</i>
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Quem Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services">Sobre Nosso Trabalho</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#localization">Nossa Localização</a>
+                </li>
+            </ul>
+
+            <a href="https://wa.me/5511947250440" class="btn-default">
+                Entre em contato via WhatsApp
+            </a>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Quem Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services">Sobre Nosso Trabalho</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#localization">Nossa Localização</a>
+                </li>
+            </ul>
+
+            <a href="https://wa.me/5511947250440" target="_blank" class="btn-default">
+                Entre em contato via WhatsApp
+            </a>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Dr. Eurico Neto especialista em
+                    <span>Direito Previdenciário</span>
+                </h1>
+
+                <p class="description">
+                    Sou Eurico dos Santos Neto, advogado previdenciário com atuação em Santo André e mais de 25 anos de
+                    experiência na área. Especialista em Direito Previdenciário (INSS), atuo na defesa dos seus direitos
+                    tanto na esfera administrativa quanto judicial.
+
+                    Não realizo cobrança de consulta nem para dar entrada no processo. Você só terá algum custo em caso
+                    de sucesso na ação.
+
+                    Estou à disposição para oferecer um atendimento claro, ético e eficiente. Fale comigo diretamente
+                    pelo WhatsApp:
+                    📱 (11) 94725-0440
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">Sobre Nós</a>
+
+                    <a href="https://wa.me/5511947250440?text=Olá%2C%20gostaria%20de%20mais%20informações%20sobre%20o%20atendimento%20previdenciário."
+                        id="phone_buttons">
+                        <button class="btn-default">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </button>
+                        WhatsApp
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="./images/advogado2.png" alt="">
+            </div>
+        </section>
+
+        <section id="services"> <!--ID MENU-->
+            <h2 class="section-title"> Nossos Serviços</h2>
+            <h3 class="section-subtitle">Oferecemos as melhores <span>soluções</span> e atendimento especializado</h3>
+
+            <div id="provided"> <!--ID DISHES-->
+                <div class="prov"><!--CLASS DISH-->
+                    <div class="prov-user"> <!--CLASS DISH-HEART-->
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+
+                    <h3 class="prov-title">
+                        Revisão de Aposentadoria
+                    </h3>
+
+                    <span class="prov-description-um">
+                        Ofereço orientação sobre os tipos de benefícios disponíveis e os procedimentos para
+                        solicitá-los. Atuo no acompanhamento de processos administrativos e judiciais perante o INSS, na
+                        defesa do cliente em caso de negativa de benefícios, e também no planejamento previdenciário
+                        para aposentadoria. Realizo revisões para corrigir erros no cálculo ou concessão de benefícios,
+                        além de atuar na reativação de benefícios suspensos indevidamente.
+                    </span>
+
+                    <button class="btn-default-cards">
+                        <i class="fa-solid fa-splotch"></i>
+                    </button>
+                </div>
+
+                <div class="prov"><!--CLASS DISH-->
+                    <div class="prov-user"> <!--CLASS DISH-HEART-->
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+
+                    <h3 class="prov-title">
+                        Benefícios
+                    </h3>
+
+                    <span class="prov-description-dois">
+                        <ul>
+                            <li>Auxílio-doença</li>
+                            <li>Aposentadoria por tempo de contribuição</li>
+                            <li>Pensão por morte</li>
+                            <li>Aposentadoria por idade</li>
+                            <li>Aposentadoria especial</li>
+                            <li>Benefício Assistencial (BPC/LOAS)</li>
+                        </ul>
+                    </span>
+
+                    <button class="btn-default-cards">
+                        <i class="fa-solid fa-splotch"></i>
+                    </button>
+                </div>
+
+                <div class="prov"><!--CLASS DISH-->
+                    <div class="prov-user"> <!--CLASS DISH-HEART-->
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+
+                    <h3 class="prov-title">
+                        Planejamento Previdenciário
+                    </h3>
+
+                    <span class="prov-description-tres">
+                        <p>Analisamos detalhadamente sua aposentadoria para identificar todas as oportunidades de
+                            revisão e quanto seu benefício pode aumentar</p>
+                        <ul>
+                            <li>Revisão de Erro de Cálculo pelo INSS</li>
+                            <li>Revisão da Aposentadoria Especial</li>
+                            <li>Revisão de auxílios</li>
+                            <li>Revisão de aposentadoria por invalidez</li>
+                        </ul>
+                        <p>Nos chame para fazer uma Análise de Revisão Completa</p>
+                    </span>
+
+                    <button class="btn-default-cards">
+                        <i class="fa-solid fa-splotch"></i>
+                    </button>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="localization"> <!--id testimonials-->
+            <iframe id="mapa"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.132553559541!2d-46.5336013844833!3d-23.665133284673485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4578c16a0071%3A0xb6f5f0de3d83f7e1!2sAv.%20Utinga%2C%201013%20-%20Utinga%2C%20Santo%20Andr%C3%A9%20-%20SP%2C%2009220-611!5e0!3m2!1spt-BR!2sbr!4v1693733765042!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border-radius:8px;" loading="lazy">
+            </iframe>
+
+            <div id="localization_content">
+                <h2 class="section-title">Entre em Contato com a gente</h2>
+                <h3 class="section-subtitle">Acesse nossa localização ou mande uma mensagem para nós !</h3>
+            </div>
+
+            <div id="contact">
+                <h2>Contato</h2>
+                <p><strong>Telefone:</strong> (11) 94725-0440</p>
+                <p><strong>Email:</strong> euricoadvogado@uol.com.br</p>
+                <p><strong>Endereço:</strong> Av. Utinga, 1013 - Utinga, Santo André - SP, 09220-611</p>
+                <div id="cta_buttons_contact">
+                    <a href="https://wa.me/5511947250440?text=Olá%2C%20gostaria%20de%20mais%20informações%20sobre%20o%20atendimento%20previdenciário."
+                        id="phone_buttons">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <img src="/src/images/wave.svg" alt="">
+
+            <div id="footer_items">
+                <span id="copyright">
+                    &copy 2025 Daniel D. Site criado por (11) 98999-1060
+                </span>
+
+                <div class="social-media-buttons">
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="./javascript/srcipt.js"></script>
+</body>
+
+</html>

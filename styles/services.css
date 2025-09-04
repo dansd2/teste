@@ -1,0 +1,108 @@
+#services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#provided {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.prov {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    gap: 18px;
+    width: 25%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.prov-user {
+    position: absolute;
+    background-color: #bb9860;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-size: 1.563rem;
+    width: 60px;
+    height: 60px;
+    right: -10px;
+    top: -10px;
+    border-radius: 0px 0px 0px 35px;
+}
+
+.prov-title {
+    font-size: 1rem;
+}
+
+.prov-description-um{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+    text-align: justify;
+}
+
+.prov-description-dois{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.prov-description-tres{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* espaçamento entre parágrafos e lista */
+    padding: 20px;
+}
+
+.prov-description-tres p {
+    font-weight: bold;
+}
+
+.btn-default-cards {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #bb9860;
+    border-radius: 8px;
+    padding: 8px 10px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 1px #383730;
+    cursor: pointer;  
+    margin-top: auto;
+}
+
+@media screen and (max-width: 1170px) {
+
+
+    #provided {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .prov{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .prov{
+        width: 350px;
+    }
+}

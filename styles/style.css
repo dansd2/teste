@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('header.css');
+@import url('home.css');
+@import url('services.css');
+@import url('localization.css');
+@import url('footer.css');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #1a1a1a;
+}
+
+section {
+    padding: 28px 8%;
+}
+
+.btn-default {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #bb9860;
+    border-radius: 8px;
+    padding: 8px 10px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 1px #383730;
+    cursor: pointer;   
+    text-decoration: none; 
+    color: #1a1a1a;
+}
+
+
+.btn-default:hover {
+    opacity: 0.8;
+}
+
+.social-media-buttons {
+    display: flex;
+    gap: 18px;
+}
+
+.social-media-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: #fff;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #1d1d1d;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow .3s ease;
+}
+
+.social-media-buttons a:houver {
+    opacity: 0.8;
+    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    color:#bb9860;
+    font-size: 2.263rem;
+    padding: 30px;
+    text-align: center;
+}
+
+.section-subtitle {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+}
